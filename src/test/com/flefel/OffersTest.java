@@ -22,6 +22,7 @@ public class OffersTest {
         OffersRequest request = new OffersRequest();
         OffersResponse response = useCase.execute(request);
         Hotel[] offers = response.getHotels();
+        
         Assert.assertTrue(offers.length > 0);
     }
 }
