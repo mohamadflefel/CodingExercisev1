@@ -28,7 +28,7 @@ public class DBGateWayJSON implements DBGateway {
         try {
 
             URL oracle = null; // URL to Parse
-            oracle = new URL("https://offersvc.expedia.com/offers/v2/getHotels?scenario=deal-finder&page=foo&uid=foo&productType=Hotel");
+            oracle = new URL("https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel");
 
             URLConnection yc = oracle.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
