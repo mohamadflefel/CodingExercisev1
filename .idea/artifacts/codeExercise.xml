@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="codeExercise">
+    <output-path>$PROJECT_DIR$/out/artifacts/codeExercise</output-path>
+    <root id="archive" name="codeExercise.jar" />
+  </artifact>
+</component>
