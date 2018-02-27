@@ -1,6 +1,7 @@
 com\flefel\CodingExercise\entities\OfferInfo.class
 com\flefel\CodingExercise\adapters\OffersResponse.class
 com\flefel\CodingExercise\entities\HotelInfo.class
+com\flefel\CodingExercise\ui\mainPage$MyUIServlet.class
 com\flefel\CodingExercise\adapters\DBGateway.class
 com\flefel\CodingExercise\GateWay\DBGateWayJSON$1.class
 com\flefel\CodingExercise\entities\OfferDateRange.class
