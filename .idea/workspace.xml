@@ -3,14 +3,47 @@
   <component name="ChangeListManager">
     <list default="true" id="f3d49e73-4867-4f94-9ffe-b2bdbb74e210" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CodingExercise.iml" afterPath="$PROJECT_DIR$/.idea/CodingExercise.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CodingExercise_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CodingExercise_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
       <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/war-tracker" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/addons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/mytheme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Destination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Hotel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelUrls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Offers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Persona.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/UserInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/flute-1.3.0.gg2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gentyref-1.2.0.vaadin1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gson-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jsoup-1.11.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/sac-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-server-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-shared-8.3.1.jar" afterPath="" />
     </list>
     <ignored path="$USER_HOME$/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/entities/Hotel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OffersTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/flefel/OffersTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,18 +101,28 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="341">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -105,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -350,6 +383,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="mytheme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,6 +410,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="mytheme" type="462c0819:PsiDirectoryNode" />
               <item name="styles.scss" type="620a8d5e:NestingTreeNode" />
             </path>
@@ -370,36 +424,22 @@
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingExercise-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingExercise-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingExercise-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
+              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -647,7 +687,7 @@
       <updated>1519677014962</updated>
       <workItem from="1519677028633" duration="1427000" />
       <workItem from="1519679795910" duration="6586000" />
-      <workItem from="1519763644890" duration="3688000" />
+      <workItem from="1519763644890" duration="5991000" />
     </task>
     <servers />
   </component>
@@ -663,7 +703,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11701000" />
+    <option name="totallyTimeSpent" value="14004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,10 +728,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21522693" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21522693" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,14 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodingExerciseUI/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -910,21 +942,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

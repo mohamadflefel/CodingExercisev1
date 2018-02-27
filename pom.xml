@@ -70,6 +70,42 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-maven-plugin</artifactId>
+                <version>1.0.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>update-widgetset</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- vaadin update widgetset part 2: compile -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>gwt-maven-plugin</artifactId>
+                <version>2.3.0-1</version>
+                <configuration>
+                    <webappDirectory>src/main/webapp/VAADIN/widgetsets</webappDirectory>
+                    <extraJvmArgs>-Xmx512M -Xss1024k</extraJvmArgs>
+                    <runTarget>clean</runTarget>
+                    <hostedWebapp>${project.build.directory}/${project.build.finalName}</hostedWebapp>
+                    <noServer>true</noServer>
+                    <port>8080</port>
+                    <soyc>false</soyc>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>resources</goal>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <!--<plugin>-->
                 <!--<groupId>org.codehaus.mojo</groupId>-->
                 <!--<artifactId>exec-maven-plugin</artifactId>-->
