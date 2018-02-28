@@ -33,6 +33,10 @@
             <version>8.3.1</version>
             <scope>provided</scope>
         </dependency>
+             <dependency>
+               <groupId>com.vaadin</groupId>
+               <artifactId>vaadin-client-compiled</artifactId>
+          </dependency>
     </dependencies>
     <build>
 
