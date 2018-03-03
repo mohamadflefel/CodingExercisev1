@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CodingExercise" target="1.5" />
+      <module name="CodingExercise" target="1.6" />
       <module name="CodingExerciseUI" target="1.5" />
     </bytecodeTargetLevel>
   </component>
