@@ -10,7 +10,6 @@ import com.vaadin.server.ExternalResource;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
-import com.vaadin.v7.ui.themes.BaseTheme;
 
 import javax.servlet.annotation.WebServlet;
 
