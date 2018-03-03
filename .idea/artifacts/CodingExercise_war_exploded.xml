@@ -15,6 +15,7 @@
           <element id="library" level="project" name="Maven: com.vaadin:vaadin-shared:8.3.1" />
           <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.11.2" />
           <element id="library" level="project" name="Maven: com.vaadin.external:gentyref:1.2.0.vaadin1" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-client-compiled:8.3.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
