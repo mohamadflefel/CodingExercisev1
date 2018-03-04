@@ -5,6 +5,7 @@ import com.flefel.CodingExercise.adapters.OffersRequest;
 import com.flefel.CodingExercise.adapters.OffersResponse;
 import com.flefel.CodingExercise.entities.Hotel;
 import com.flefel.CodingExercise.interactors.OffersUseCase;
+import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.icons.VaadinIcons;
 import com.vaadin.server.ExternalResource;
@@ -17,6 +18,7 @@ import javax.servlet.annotation.WebServlet;
 
 import static com.vaadin.ui.themes.ValoTheme.BUTTON_LINK;
 
+@Theme("mytheme")
 public class mainPage extends UI {
 
 
