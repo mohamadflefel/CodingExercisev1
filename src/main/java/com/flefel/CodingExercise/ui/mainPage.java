@@ -22,12 +22,22 @@ import static com.vaadin.ui.themes.ValoTheme.BUTTON_LINK;
 public class mainPage extends UI {
 
 
-    VerticalLayout mainLayout;
+    HorizontalLayout mainLayout;
     TextField txtLocation;
+    DateField fromDate;
+    DateField toDate;
+    TextField lengthOfStay;
+    TextField minStarRate;
+    TextField maxStarRate;
+    TextField minTotalRate;
+    TextField maxTotalRate;
+    TextField minGuestRate;
+    TextField maxGuestRate;
+
 
     @Override
     public void init(VaadinRequest request) {
-        mainLayout = new VerticalLayout();
+        mainLayout = new HorizontalLayout();
         setContent( mainLayout );
         initializeControls();
         createSearchControl();
@@ -36,15 +46,32 @@ public class mainPage extends UI {
 
     private void initializeControls() {
         txtLocation = new TextField( "Location" );
+        fromDate = new DateField( "From Date" );
+        toDate = new DateField( "To Date" );
+        lengthOfStay = new TextField( "Length of Stay" );
+        minStarRate = new TextField( "Min Start Rate" );
+        maxStarRate = new TextField( "Max Start Rate" );
+        minTotalRate = new TextField( "Min Total Rate" );
+        maxTotalRate = new TextField( "Max Total Rate" );
+        minGuestRate = new TextField( "Min Guest Rate" );
+        maxGuestRate = new TextField( "Min Guest Rate" );
+
+
     }
 
     private void createSearchControl() {
         VerticalLayout searchLayout = new VerticalLayout();
         searchLayout.addComponent( txtLocation );
+        searchLayout.addComponent( fromDate );
+        searchLayout.addComponent( toDate );
+        searchLayout.addComponent( lengthOfStay );
+        searchLayout.addComponent( createRatingInput( minStarRate, maxStarRate ) );
+        searchLayout.addComponent( createRatingInput( minTotalRate, maxTotalRate ) );
+        searchLayout.addComponent( createRatingInput( minGuestRate, maxGuestRate ) );
 
 
-        Button btnSearch = new Button("Search",
-                 VaadinIcons.SEARCH);
+        Button btnSearch = new Button( "Search",
+                VaadinIcons.SEARCH );
         btnSearch.addListener( new Listener() {
             @Override
             public void componentEvent(Event event) {
@@ -54,6 +81,14 @@ public class mainPage extends UI {
 
         searchLayout.addComponent( btnSearch );
         mainLayout.addComponent( searchLayout );
+    }
+
+    private Component createRatingInput(TextField minField, TextField maxField) {
+        HorizontalLayout ratingLayout = new HorizontalLayout();
+        ratingLayout.addComponent( minField );
+        ratingLayout.addComponent( new Label( "/" ) );
+        ratingLayout.addComponent( maxField );
+        return ratingLayout;
     }
 
     void btnSearchClick(Event event) {
@@ -71,12 +106,15 @@ public class mainPage extends UI {
 
 
     private void listAllOffers() {
+
+        VerticalLayout offersLayout=new VerticalLayout(  );
         OffersUseCase useCase = new OffersUseCase( new DBGateWayJSON() );
         OffersResponse response = useCase.execute( new OffersRequest() );
         Hotel[] hotels = response.getHotels();
         for (Hotel hotel : hotels) {
-            mainLayout.addComponent( createHotelLayout( hotel ) );
+            offersLayout.addComponent( createHotelLayout( hotel ) );
         }
+        mainLayout.addComponent( offersLayout );
     }
 
     private Component createHotelLayout(Hotel hotel) {

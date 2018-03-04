@@ -23,6 +23,11 @@ public class DBGateWayJSON implements DBGateway {
 
     }
 
+    @Override
+    public Hotel[] listHotelsByWhere(String s) {
+        return new Hotel[0];
+    }
+
     private OfferInfo getOfferInfo(String filter) {
         OfferInfo offerInfo = new OfferInfo();
         try {
