@@ -15,7 +15,7 @@ import org.junit.Test;
 import java.util.Date;
 import java.util.List;
 
-public class OffersTest {
+public class OffersUseCaseTest {
 
     private OffersUseCase useCase;
     private OffersRequest request;
