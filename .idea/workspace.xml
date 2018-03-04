@@ -3,20 +3,58 @@
   <component name="ChangeListManager">
     <list default="true" id="f3d49e73-4867-4f94-9ffe-b2bdbb74e210" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/flefel/OffersTest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.properties" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flefel/CodingExercise/GateWay/DBGateWayMock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flefel/CodingExercise/interactors/OffersTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/war-tracker" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/addons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/archetype-login-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/table-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/layouts/aboutview.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/mytheme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/shared/img/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Destination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Hotel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelUrls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Offers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Persona.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/UserInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/flute-1.3.0.gg2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gentyref-1.2.0.vaadin1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gson-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jsoup-1.11.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/sac-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-client-compiled-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-server-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-shared-8.3.1.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/SESSIONS.ser" afterPath="" />
     </list>
     <ignored path="$USER_HOME$/" />
@@ -43,8 +81,8 @@
       <file leaf-file-name="OffersUseCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="884">
+              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -53,10 +91,11 @@
       <file leaf-file-name="DBGateWayJSON.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,17 +105,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/DBGateway.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+            <state relative-caret-position="227">
+              <caret line="113" column="59" lean-forward="false" selection-start-line="113" selection-start-column="59" selection-end-line="113" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3233#3234#0" expanded="true" />
@@ -96,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OffersTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OffersTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
@@ -111,7 +150,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
               <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding />
+              <folding>
+                <marker date="1519677634804" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1519677634804" expanded="false" signature="135:249" ph="..." />
+                <marker date="1519677634804" expanded="false" signature="467:478" ph=" { " />
+                <marker date="1519677634804" expanded="false" signature="497:503" ph=" }" />
+                <marker date="1519677634804" expanded="true" signature="617:1158" ph="{...}" />
+                <marker date="1519677634804" expanded="false" signature="1213:1224" ph=" { " />
+                <marker date="1519677634804" expanded="false" signature="1243:1249" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,13 +302,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/DBGateway.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/GateWay/DBGateWayMock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
       </list>
     </option>
   </component>
@@ -445,6 +492,24 @@
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="interactors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,66 +539,6 @@
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="mytheme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat.8080" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="expanded" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
@@ -914,14 +919,11 @@
       <workItem from="1519776167489" duration="618000" />
       <workItem from="1519859684919" duration="11483000" />
       <workItem from="1520116304039" duration="1598000" />
-      <workItem from="1520128463524" duration="8819000" />
+      <workItem from="1520128463524" duration="9484000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OffersTest_givenListAllOffersThenOffersListMustNotEmpty - 2018.03.04 at 21h 25m 13s.xml">
-      <configuration name="OffersTest.givenListAllOffersThenOffersListMustNotEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OffersTest_givenListAllOffersThenOffersListMustNotEmpty - 2018.03.04 at 21h 25m 41s.xml">
       <configuration name="OffersTest.givenListAllOffersThenOffersListMustNotEmpty" configurationId="JUnit" />
     </history-entry>
@@ -940,6 +942,9 @@
     <history-entry file="OffersTest_givenOfferByExistingParametersThenOffersListMustBeEmpty - 2018.03.04 at 21h 40m 11s.xml">
       <configuration name="OffersTest.givenOfferByExistingParametersThenOffersListMustBeEmpty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OffersTest_givenOfferByExistingParametersThenOffersListMustBeEmpty - 2018.03.04 at 21h 47m 53s.xml">
+      <configuration name="OffersTest.givenOfferByExistingParametersThenOffersListMustBeEmpty" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="OffersTest_givenOfferByNotExistingDestinationNameThenOffersListMustBeEmpty - 2018.03.04 at 21h 29m 35s.xml">
       <configuration name="OffersTest.givenOfferByNotExistingDestinationNameThenOffersListMustBeEmpty" configurationId="JUnit" />
     </history-entry>
@@ -951,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37013000" />
+    <option name="totallyTimeSpent" value="37678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -985,9 +990,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21522693" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1619,18 +1624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1645,18 +1638,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/DBGateway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#786#787#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1664,7 +1647,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1519677634804" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519677634804" expanded="false" signature="135:249" ph="..." />
+            <marker date="1519677634804" expanded="false" signature="467:478" ph=" { " />
+            <marker date="1519677634804" expanded="false" signature="497:503" ph=" }" />
+            <marker date="1519677634804" expanded="true" signature="617:1158" ph="{...}" />
+            <marker date="1519677634804" expanded="false" signature="1213:1224" ph=" { " />
+            <marker date="1519677634804" expanded="false" signature="1243:1249" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1672,14 +1663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1743,6 +1726,37 @@
         <state relative-caret-position="239">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="113" column="59" lean-forward="false" selection-start-line="113" selection-start-column="59" selection-end-line="113" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

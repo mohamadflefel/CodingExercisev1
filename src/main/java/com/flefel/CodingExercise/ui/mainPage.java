@@ -107,9 +107,11 @@ public class mainPage extends UI {
 
     private void listAllOffers() {
 
-        VerticalLayout offersLayout=new VerticalLayout(  );
+        VerticalLayout offersLayout = new VerticalLayout();
         OffersUseCase useCase = new OffersUseCase( new DBGateWayJSON() );
-        OffersResponse response = useCase.execute( new OffersRequest() );
+        OffersRequest request = new OffersRequest();
+        request.setListAll( true );
+        OffersResponse response = useCase.execute( request );
         Hotel[] hotels = response.getHotels();
         for (Hotel hotel : hotels) {
             offersLayout.addComponent( createHotelLayout( hotel ) );

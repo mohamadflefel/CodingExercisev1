@@ -24,8 +24,8 @@ public class DBGateWayJSON implements DBGateway {
     }
 
     @Override
-    public Hotel[] listHotelsByWhere(String s) {
-        return new Hotel[0];
+    public Hotel[] listHotelsByWhere(String filter) {
+        return   getOfferInfo(filter).getOffers().getHotel();
     }
 
     private OfferInfo getOfferInfo(String filter) {
