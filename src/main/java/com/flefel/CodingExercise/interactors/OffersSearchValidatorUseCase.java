@@ -18,7 +18,7 @@ public class OffersSearchValidatorUseCase {
     public void execute(OffersSearchValidatorRequest request) throws Exception {
 
 
-        if (request.getLengthOfStay() <= 0)
+        if (request.getLengthOfStay() < 0)
             throw new InvalidLengthOfStay();
         if (request.getFromDate().after( request.getToDate() ))
             throw new InvalidDateRange();

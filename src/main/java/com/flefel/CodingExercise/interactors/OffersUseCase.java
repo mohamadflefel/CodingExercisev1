@@ -4,6 +4,8 @@ import com.flefel.CodingExercise.adapters.DBGateway;
 import com.flefel.CodingExercise.adapters.OffersRequest;
 import com.flefel.CodingExercise.adapters.OffersResponse;
 
+import java.text.SimpleDateFormat;
+
 public class OffersUseCase {
     private DBGateway gateway;
 
@@ -28,10 +30,14 @@ public class OffersUseCase {
         StringBuilder whereStatement = new StringBuilder();
         if (request.getLocation() != null)
             whereStatement.append( "&destinationName=" ).append( request.getLocation() );
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "yyyy-MM-dd" );
+
+
         if (request.getFromDate() != null)
-            whereStatement.append( "&minTripStartDate=" ).append( request.getLocation() );
+            whereStatement.append( "&minTripStartDate=" ).append( dateFormat.format( request.getFromDate() ) );
         if (request.getToDate() != null)
-            whereStatement.append( "&maxTripStartDate=" ).append( request.getLocation() );
+            whereStatement.append( "&maxTripStartDate=" ).append( dateFormat.format( request.getToDate() ) );
         if (request.getLengthOfStay() != 0)
             whereStatement.append( "&lengthOfStay=" ).append( request.getLengthOfStay() );
         if (request.getMinRating() != 0)

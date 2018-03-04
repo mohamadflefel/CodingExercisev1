@@ -19,6 +19,7 @@ import com.vaadin.ui.themes.ValoTheme;
 
 import javax.servlet.annotation.WebServlet;
 
+import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 
@@ -39,11 +40,13 @@ public class mainPage extends UI {
     private TextField maxTotalRate;
     private TextField minGuestRate;
     private TextField maxGuestRate;
+    private VerticalLayout offersLayout;
 
 
     @Override
     public void init(VaadinRequest request) {
         mainLayout = new HorizontalLayout();
+        offersLayout = new VerticalLayout();
         setContent( mainLayout );
         initializeControls();
         createSearchControl();
@@ -53,7 +56,9 @@ public class mainPage extends UI {
     private void initializeControls() {
         txtLocation = new TextField( "Location" );
         fromDate = new InlineDateField( "From Date" );
+        fromDate.setValue( LocalDate.now() );
         toDate = new InlineDateField( "To Date" );
+        toDate.setValue( LocalDate.now() );
         lengthOfStay = new TextField( "Length of Stay" );
         minStarRate = new TextField( "Min Start Rate" );
         maxStarRate = new TextField( "Max Start Rate" );
@@ -139,6 +144,7 @@ public class mainPage extends UI {
     }
 
     private void bindRequestParameters(OfferParametersBase request) {
+        request.setLocation( txtLocation.getValue() );
         request.setFromDate( Date.from( fromDate.getValue().atStartOfDay( ZoneId.systemDefault() ).toInstant() ) );
         request.setToDate( Date.from( toDate.getValue().atStartOfDay( ZoneId.systemDefault() ).toInstant() ) );
         request.setLengthOfStay( getIntegerFieldValue( lengthOfStay.getValue() ) );
@@ -154,7 +160,6 @@ public class mainPage extends UI {
         return Integer.parseInt( "".equals( value ) ? "0" : value );
     }
 
-    private VerticalLayout offersLayout;
 
     private void listAllOffers() {
 
@@ -163,15 +168,17 @@ public class mainPage extends UI {
         request.setListAll( true );
         OffersResponse response = useCase.execute( request );
         bindOffers( response.getHotels() );
-        mainLayout.addComponent( offersLayout );
     }
 
     private void bindOffers(Hotel[] hotels) {
+        offersLayout.removeAllComponents();
         offersLayout = new VerticalLayout();
 
         for (Hotel hotel : hotels) {
             offersLayout.addComponent( createHotelLayout( hotel ) );
         }
+        mainLayout.addComponent( offersLayout );
+
     }
 
     private Component createHotelLayout(Hotel hotel) {

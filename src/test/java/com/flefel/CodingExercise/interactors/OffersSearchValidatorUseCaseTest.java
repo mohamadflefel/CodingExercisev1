@@ -30,7 +30,7 @@ public class OffersSearchValidatorUseCaseTest {
 
         request.setFromDate( new Date() );
         request.setToDate( new Date() );
-        request.setLengthOfStay( 0 );
+        request.setLengthOfStay( -1 );
         request.setMinRating( 1 );
         request.setMaxRating( 5 );
         request.setMinTotalRating( 1 );

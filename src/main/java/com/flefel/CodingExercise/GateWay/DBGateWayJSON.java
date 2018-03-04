@@ -14,29 +14,33 @@ import java.lang.reflect.Type;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.logging.Logger;
 
 public class DBGateWayJSON implements DBGateway {
     public Hotel[] listAllHotels() {
 
-      return   getOfferInfo("").getOffers().getHotel();
+        Hotel[] result = getOfferInfo( "" ).getOffers().getHotel();
+        return result == null ? new Hotel[0] : result;
 
 
     }
 
+    private static final Logger LOGGER = Logger.getLogger( DBGateWayJSON.class.getName() );
+
     @Override
     public Hotel[] listHotelsByWhere(String filter) {
-        return   getOfferInfo(filter).getOffers().getHotel();
+        return getOfferInfo( filter ).getOffers().getHotel();
     }
 
     private OfferInfo getOfferInfo(String filter) {
         OfferInfo offerInfo = new OfferInfo();
         try {
 
-            URL oracle = null; // URL to Parse
-            oracle = new URL("https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel"+filter);
-
-            URLConnection yc = oracle.openConnection();
-            BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
+            URL url = null; // URL to Parse
+            url = new URL( "https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel" + filter );
+            LOGGER.info( "https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel" + filter );
+            URLConnection yc = url.openConnection();
+            BufferedReader in = new BufferedReader( new InputStreamReader( yc.getInputStream() ) );
 
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
@@ -45,7 +49,7 @@ public class DBGateWayJSON implements DBGateway {
                 Gson gson = new Gson();
                 Type listType = new TypeToken<Offers>() {
                 }.getType();
-                offerInfo = gson.fromJson(inputLine, OfferInfo.class);
+                offerInfo = gson.fromJson( inputLine, OfferInfo.class );
 
             }
 
