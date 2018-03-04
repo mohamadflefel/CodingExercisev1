@@ -1,9 +1,12 @@
 package com.flefel.CodingExercise.ui;
 
 import com.flefel.CodingExercise.GateWay.DBGateWayJSON;
+import com.flefel.CodingExercise.adapters.OfferParametersBase;
 import com.flefel.CodingExercise.adapters.OffersRequest;
 import com.flefel.CodingExercise.adapters.OffersResponse;
+import com.flefel.CodingExercise.adapters.OffersSearchValidatorRequest;
 import com.flefel.CodingExercise.entities.Hotel;
+import com.flefel.CodingExercise.interactors.OffersSearchValidatorUseCase;
 import com.flefel.CodingExercise.interactors.OffersUseCase;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
@@ -16,23 +19,26 @@ import com.vaadin.ui.themes.ValoTheme;
 
 import javax.servlet.annotation.WebServlet;
 
+import java.time.ZoneId;
+import java.util.Date;
+
 import static com.vaadin.ui.themes.ValoTheme.BUTTON_LINK;
 
 @Theme("mytheme")
 public class mainPage extends UI {
 
 
-    HorizontalLayout mainLayout;
-    TextField txtLocation;
-    DateField fromDate;
-    DateField toDate;
-    TextField lengthOfStay;
-    TextField minStarRate;
-    TextField maxStarRate;
-    TextField minTotalRate;
-    TextField maxTotalRate;
-    TextField minGuestRate;
-    TextField maxGuestRate;
+    private HorizontalLayout mainLayout;
+    private TextField txtLocation;
+    private InlineDateField fromDate;
+    private InlineDateField toDate;
+    private TextField lengthOfStay;
+    private TextField minStarRate;
+    private TextField maxStarRate;
+    private TextField minTotalRate;
+    private TextField maxTotalRate;
+    private TextField minGuestRate;
+    private TextField maxGuestRate;
 
 
     @Override
@@ -46,8 +52,8 @@ public class mainPage extends UI {
 
     private void initializeControls() {
         txtLocation = new TextField( "Location" );
-        fromDate = new DateField( "From Date" );
-        toDate = new DateField( "To Date" );
+        fromDate = new InlineDateField( "From Date" );
+        toDate = new InlineDateField( "To Date" );
         lengthOfStay = new TextField( "Length of Stay" );
         minStarRate = new TextField( "Min Start Rate" );
         maxStarRate = new TextField( "Max Start Rate" );
@@ -91,32 +97,81 @@ public class mainPage extends UI {
         return ratingLayout;
     }
 
-    void btnSearchClick(Event event) {
+    private void btnSearchClick(Event event) {
         listSearchResults( txtLocation.getValue() );
     }
 
     private void listSearchResults(String value) {
-        OffersUseCase useCase = new OffersUseCase( new DBGateWayJSON() );
-        OffersResponse response = useCase.execute( new OffersRequest() );
-        Hotel[] hotels = response.getHotels();
-//        for (Hotel hotel : hotels) {
-        mainLayout.addComponent( createHotelLayout( hotels[0] ) );
-//        }
+        validateSearchParameters();
+        bindFilterResults();
+
+
     }
 
+    private void validateSearchParameters() {
+
+        try {
+            OffersSearchValidatorUseCase useCase = new OffersSearchValidatorUseCase( new DBGateWayJSON() );
+
+            OffersSearchValidatorRequest request = new OffersSearchValidatorRequest();
+
+            bindRequestParameters( request );
+
+            useCase.execute( request );
+        } catch (Exception e) {
+            Notification.show( "Invalid Search Values",
+                    e.getMessage(),
+                    Notification.Type.HUMANIZED_MESSAGE );
+        }
+
+    }
+
+    private void bindFilterResults() {
+
+        OffersUseCase useCase = new OffersUseCase( new DBGateWayJSON() );
+
+        OffersRequest request = new OffersRequest();
+
+        bindRequestParameters( request );
+
+        OffersResponse response = useCase.execute( request );
+        bindOffers( response.getHotels() );
+    }
+
+    private void bindRequestParameters(OfferParametersBase request) {
+        request.setFromDate( Date.from( fromDate.getValue().atStartOfDay( ZoneId.systemDefault() ).toInstant() ) );
+        request.setToDate( Date.from( toDate.getValue().atStartOfDay( ZoneId.systemDefault() ).toInstant() ) );
+        request.setLengthOfStay( getIntegerFieldValue( lengthOfStay.getValue() ) );
+        request.setMinRating( getIntegerFieldValue( minStarRate.getValue() ) );
+        request.setMaxRating( getIntegerFieldValue( maxStarRate.getValue() ) );
+        request.setMinTotalRating( getIntegerFieldValue( minTotalRate.getValue() ) );
+        request.setMaxTotalRating( getIntegerFieldValue( maxTotalRate.getValue() ) );
+        request.setMinGuestRating( getIntegerFieldValue( minGuestRate.getValue() ) );
+        request.setMaxGuestRating( getIntegerFieldValue( maxGuestRate.getValue() ) );
+    }
+
+    private int getIntegerFieldValue(String value) {
+        return Integer.parseInt( "".equals( value ) ? "0" : value );
+    }
+
+    private VerticalLayout offersLayout;
 
     private void listAllOffers() {
 
-        VerticalLayout offersLayout = new VerticalLayout();
         OffersUseCase useCase = new OffersUseCase( new DBGateWayJSON() );
         OffersRequest request = new OffersRequest();
         request.setListAll( true );
         OffersResponse response = useCase.execute( request );
-        Hotel[] hotels = response.getHotels();
+        bindOffers( response.getHotels() );
+        mainLayout.addComponent( offersLayout );
+    }
+
+    private void bindOffers(Hotel[] hotels) {
+        offersLayout = new VerticalLayout();
+
         for (Hotel hotel : hotels) {
             offersLayout.addComponent( createHotelLayout( hotel ) );
         }
-        mainLayout.addComponent( offersLayout );
     }
 
     private Component createHotelLayout(Hotel hotel) {

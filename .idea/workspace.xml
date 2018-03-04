@@ -2,8 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d49e73-4867-4f94-9ffe-b2bdbb74e210" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CodingExercise.iml" afterPath="$PROJECT_DIR$/.idea/CodingExercise.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/main.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/GateWay/DBGateWayMock.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersUseCaseTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT.war" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Destination.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Destination.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Hotel.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Hotel.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelInfo.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelUrls.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelUrls.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferInfo.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Offers.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Offers.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Persona.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/Persona.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/UserInfo.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/entities/UserInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/main.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/CodingExercise-1.0-SNAPSHOT/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/DBGateway.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidDateRange.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidDateRange.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidLengthOfStay.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidLengthOfStay.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidRatingValue.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/adapters/exceptions/InvalidRatingValue.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Destination.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Destination.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Hotel.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Hotel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelUrls.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/HotelUrls.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/OfferInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/OfferInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Offers.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Offers.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Persona.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/Persona.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/UserInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/entities/UserInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCase.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCase.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/main.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="$PROJECT_DIR$/target/classes/com/flefel/CodingExercise/ui/mainPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flefel/CodingExercise/GateWay/DBGateWayMock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flefel/CodingExercise/interactors/OffersUseCaseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.flefel/CodingExercise/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/war-tracker" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/addons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/archetype-login-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/img/table-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/layouts/aboutview.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/mytheme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/shared/img/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/VAADIN/themes/mytheme/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/GateWay/DBGateWayJSON.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/DBGateway.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/adapters/OffersResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Destination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Hotel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelPricingInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/HotelUrls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferDateRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/OfferInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Offers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/Persona.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/entities/UserInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/interactors/OffersUseCase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage$MyUIServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/flefel/CodingExercise/ui/mainPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/flute-1.3.0.gg2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gentyref-1.2.0.vaadin1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/gson-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jsoup-1.11.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/sac-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-client-compiled-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-server-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/vaadin-shared-8.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/SESSIONS.ser" afterPath="" />
     </list>
     <ignored path="$USER_HOME$/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,26 +132,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OffersUseCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java">
+      <file leaf-file-name="OffersSearchValidatorUseCaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="135" column="39" lean-forward="false" selection-start-line="127" selection-start-column="7" selection-end-line="135" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBGateWayJSON.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,24 +147,58 @@
       <file leaf-file-name="mainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+            <state relative-caret-position="307">
+              <caret line="161" column="46" lean-forward="false" selection-start-line="161" selection-start-column="46" selection-end-line="161" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3233#3234#0" expanded="true" />
-                <element signature="e#3292#3293#0" expanded="true" />
+                <element signature="e#3061#3062#0" expanded="true" />
+                <element signature="e#3116#3117#0" expanded="true" />
+                <element signature="e#3612#3613#0" expanded="true" />
+                <element signature="e#3671#3672#0" expanded="true" />
+                <element signature="e#5614#5615#0" expanded="true" />
+                <element signature="e#5689#5690#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OffersSearchValidatorUseCaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBGateWayMock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/flefel/CodingExercise/GateWay/DBGateWayMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OffersRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfferParametersBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OfferParametersBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+                <element signature="e#1979#1980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,21 +214,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidDateRange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidDateRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InvalidLengthOfStay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidLengthOfStay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,43 +227,9 @@
       <file leaf-file-name="OffersSearchValidatorRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
-              <folding>
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1620#1621#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,16 +242,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OffersUseCaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersUseCaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="72" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,6 +265,10 @@
       <find>spinner</find>
       <find>widg</find>
       <find>mainLayout</find>
+      <find>fromDate</find>
+      <find>junit</find>
+      <find>dep</find>
+      <find>plug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,24 +292,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/main.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss" />
         <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/DBGateway.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/GateWay/DBGateWayMock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersUseCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidRatingValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidLengthOfStay.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidDateRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidMinRating.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCase.java" />
         <option value="$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OfferParamtersBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OfferParametersBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -392,41 +471,28 @@
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
               <item name="GateWay" type="462c0819:PsiDirectoryNode" />
@@ -435,46 +501,8 @@
               <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="interactors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="GateWay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercisevNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercisevNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="CodingExercise" type="462c0819:PsiDirectoryNode" />
               <item name="interactors" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -512,13 +540,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.flefel.CodingExercise.adapters.exceptions" />
       <recent name="com.flefel.CodingExercise.adapters" />
+      <recent name="com.flefel.CodingExercise.adapters.exceptions" />
       <recent name="com.flefel.CodingExercise.interactors" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.flefel.CodingExercise.interactors" />
       <recent name="com.flefel.CodingExercise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mflef\IdeaProjects\CodingExercisevNew\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.flefel.CodingExercise.GateWay" />
@@ -867,12 +898,15 @@
       <workItem from="1519776167489" duration="618000" />
       <workItem from="1519859684919" duration="11483000" />
       <workItem from="1520116304039" duration="1598000" />
-      <workItem from="1520128463524" duration="11982000" />
+      <workItem from="1520128463524" duration="15485000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="OffersSearchValidatorUseCaseTest - 2018.03.04 at 22h 39m 31s.xml">
+      <configuration name="OffersSearchValidatorUseCaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OffersSearchValidatorUseCaseTest - 2018.03.04 at 22h 40m 40s.xml">
       <configuration name="OffersSearchValidatorUseCaseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="OffersSearchValidatorUseCaseTest_givenInvalidDateRangeThenExceptionMustReturned - 2018.03.04 at 22h 28m 42s.xml">
@@ -899,12 +933,9 @@
     <history-entry file="OffersTest_givenOfferByExistingParametersThenOffersListMustBeEmpty - 2018.03.04 at 21h 47m 53s.xml">
       <configuration name="OffersTest.givenOfferByExistingParametersThenOffersListMustBeEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OffersTest_givenOfferByNotExistingDestinationNameThenOffersListMustBeEmpty - 2018.03.04 at 21h 33m 13s.xml">
-      <configuration name="OffersTest.givenOfferByNotExistingDestinationNameThenOffersListMustBeEmpty" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40176000" />
+    <option name="totallyTimeSpent" value="43679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -917,7 +948,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -938,9 +968,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21522693" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1032,13 +1062,6 @@
     <option name="serverPort" value="11242" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1052,9 +1075,12 @@
         <state relative-caret-position="119">
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3061#3062#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#3612#3613#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#5689#5690#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,6 +1140,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,6 +1163,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,16 +1417,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding>
-            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/vaadin-all-8.3.1/vaadin-server-8.3.1.jar!/com/vaadin/ui/AbstractField.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1524,8 +1542,8 @@
         <state relative-caret-position="119">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <element signature="e#209#210#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#214#215#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1554,87 +1572,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/GateWay/DBGateWayMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="102" column="55" lean-forward="false" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
-          <folding>
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#545#546#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#922#923#0" expanded="false" />
-            <element signature="e#953#954#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1062#1063#0" expanded="false" />
-            <element signature="e#1091#1092#0" expanded="false" />
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1228#1229#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-            <element signature="e#1310#1311#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="false" />
-            <element signature="e#1385#1386#0" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1464#1465#0" expanded="false" />
-            <element signature="e#1506#1507#0" expanded="false" />
-            <element signature="e#1539#1540#0" expanded="false" />
-            <element signature="e#1571#1572#0" expanded="false" />
-            <element signature="e#1628#1629#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1755#1756#0" expanded="false" />
-            <element signature="e#1812#1813#0" expanded="false" />
-            <element signature="e#1864#1865#0" expanded="false" />
-            <element signature="e#1902#1903#0" expanded="false" />
-            <element signature="e#1939#1940#0" expanded="false" />
-            <element signature="e#1996#1997#0" expanded="false" />
-            <element signature="e#2048#2049#0" expanded="false" />
-            <element signature="e#2086#2087#0" expanded="false" />
-            <element signature="e#2123#2124#0" expanded="false" />
-            <element signature="e#2232#2233#0" expanded="false" />
-            <element signature="e#2270#2271#0" expanded="false" />
-            <element signature="e#2307#2308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/GateWay/DBGateWayJSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#824#825#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1647,10 +1591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersUseCaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flefel/CodingExercise/interactors/OffersUseCaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="72" selection-end-column="0" />
+          <caret line="67" column="0" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1660,49 +1604,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1726,7 +1628,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/exceptions/InvalidLengthOfStay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1741,13 +1643,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OfferParametersBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flefel/CodingExercise/interactors/OffersSearchValidatorUseCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="135" column="39" lean-forward="false" selection-start-line="127" selection-start-column="7" selection-end-line="135" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/adapters/OffersSearchValidatorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flefel/CodingExercise/ui/mainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="161" column="46" lean-forward="false" selection-start-line="161" selection-start-column="46" selection-end-line="161" selection-end-column="46" />
+          <folding>
+            <element signature="e#3061#3062#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#3612#3613#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#5689#5690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flefel/CodingExercise/GateWay/DBGateWayMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

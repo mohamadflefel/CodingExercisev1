@@ -2,8 +2,6 @@ package com.flefel.CodingExercise.adapters;
 
 import com.flefel.CodingExercise.entities.Hotel;
 
-import java.util.List;
-
 public class OffersResponse {
     private Hotel[] hotels;
 
